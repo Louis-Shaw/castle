@@ -8,7 +8,7 @@ public class Game {
     public Game() 
     {
     	//handlers.put("go", new HandlerGo());
-        //now we were on dev branck
+        // now we were on product  branch
     	handlers.put("bye",new HandlerBye(this));
     	handlers.put("help", new HandlerHelp(this));
     	handlers.put("go", new HandlerGo(this));
